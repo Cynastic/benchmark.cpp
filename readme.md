@@ -1,12 +1,9 @@
 # Benchmark.cpp - Simple benchmarking of C++
----
 Benchmark.cpp allows you to easily benchmark C++ files. It uses the standard chrono header for easy usage across platforms.
 ## Usage
----
 Just add benchmark.h and benchmark.cpp to your project, and in the file you want to benchmark, include benchmark.cpp.
 For more information, check out the files, or the example below.
 ## Example
----
 ```cpp
 #include "benchmark.cpp"
 #include <thread>
